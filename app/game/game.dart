@@ -273,7 +273,9 @@ static bool gamePaused = false;
     } else if (Game.state == Game.StateGameOver){
       TimerManager.instance.clearEvents();
       {
-        highScore = playerOneScore;
+        if (highScore < playerOneScore) {
+          highScore = playerOneScore;
+        }
       }
       currentLevel = 1;
       TimerManager.instance.addEvent(4000, restartGame);
