@@ -1,0 +1,7 @@
+name: DartInvaderz
+description: A basic project setup to help with starting new game projects
+dependencies:
+  browser: any
+  js: any
+  simple_audio:
+    git: https://github.com/johnmccutchan/simpleaudio.git
