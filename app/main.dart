@@ -2,9 +2,7 @@ library dart_invaderz;
 
 import 'dart:html';
 import 'dart:async';
-//import 'dart:collection';
 import 'dart:math';
-//import 'dart:web_audio';
 import 'package:simple_audio/simple_audio.dart';
 
 import 'game/keyboard_manager.dart';
@@ -60,7 +58,5 @@ void main() {
   Sprite_Manager.instance.loadImages();
   
  // Game game = new Game();
-  
-
- // game.initialStart();
+// game.initialStart();
 }
