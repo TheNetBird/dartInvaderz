@@ -57,6 +57,6 @@ void main() {
   TimerManager.GAMETIME.start();
   Sprite_Manager.instance.loadImages();
   
- // Game game = new Game();
-// game.initialStart();
+  Game game = new Game();
+  game.initialStart();
 }
